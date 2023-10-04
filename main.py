@@ -1,9 +1,9 @@
 import streamlit as st
-import yfinance as finance
+import yfinance as yfinance
 
 
 def stock_ticker(name):
-	company = finance.Ticker(name) 
+	company = yfinance.Ticker(name) 
 	return company
 
 st.title("StockWizzard")
@@ -19,13 +19,13 @@ company7 = stock_ticker("MA")
 
 
 
-tesla = finance.download("TSLA", start="2022-10-01", end="2023-10-01")
-apple = finance.download("AAPL", start="2022-10-01", end="2023-10-01")
-amazon = finance.download("AMZN", start="2022-10-01", end="2023-01-01")
-visa = finance.download("V", start="2022-10-01", end="2023-01-01")
-dow = finance.download("dow", start="2022-10-01", end="2023-01-01")
-brka = finance.download("BRK-A", start="2022-10-01", end="2023-01-01")
-mstrc = finance.download("MA", start="2022-10-01", end="2023-01-01")
+tesla = yfinance.download("TSLA", start="2022-10-01", end="2023-10-01")
+apple = yfinance.download("AAPL", start="2022-10-01", end="2023-10-01")
+amazon = yfinance.download("AMZN", start="2022-10-01", end="2023-01-01")
+visa = yfinance.download("V", start="2022-10-01", end="2023-01-01")
+dow = yfinance.download("dow", start="2022-10-01", end="2023-01-01")
+brka = yfinance.download("BRK-A", start="2022-10-01", end="2023-01-01")
+mstrc = yfinance.download("MA", start="2022-10-01", end="2023-01-01")
 
 
 

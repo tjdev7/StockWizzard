@@ -3,11 +3,15 @@
 
 Stock ticker data science app. Provides data on stock market for a one year period. App is currently still in development. With more updates coming soon
 
-
 ## Current app screenshots:
 
-[Splashpage for StockWizzard, a data science stock ticker app](./img/StockWizzard_splashpage.png)
-[Mobile screenshot for Stockwizzard, a data science stock ticker app](./img/Mobile_StockWizzard_splashpage.png)
+### Screenshot for the data analytics app
+
+![Splashpage for StockWizzard, a data science stock ticker app](./img/StockWizzard_splashpage.png)
+
+### Mobile screenshot for the data analytics app
+
+![Mobile screenshot for Stockwizzard, a data science stock ticker app](./img/Mobile_StockWizzard_splashpage.png)
 
 ### Future app updates:
 

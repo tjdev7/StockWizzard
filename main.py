@@ -1,11 +1,13 @@
 import streamlit as st
 import yfinance as yf
 
+
 def stock_ticker(name):
 	company = yf.Ticker(name) 
 	return company
 
 st.title("StockWizzard")
+
 
 company1 = stock_ticker("TSLA")
 company2 = stock_ticker("AAPL")

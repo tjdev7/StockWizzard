@@ -1,7 +1,6 @@
 import streamlit as st
 import yfinance as yfinance
 
-
 def stock_ticker(name):
 	company = yfinance.Ticker(name) 
 	return company

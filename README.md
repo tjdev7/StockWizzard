@@ -1,7 +1,7 @@
 # StockWizzard
 
 
-Stock ticker data science app. Provides data on stock market for a one year period. App is currently still in development. With more updates coming soon
+Stock ticker data science app created using Python. Provides data on multiple companies inside the stock market for a one year period.
 
 ## Current app screenshots:
 
